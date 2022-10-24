@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		35C6FDC22905A9A500895ADA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6FDC12905A9A500895ADA /* main.swift */; };
+		35C6FDC92905AA0600895ADA /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6FDC82905AA0600895ADA /* Animals.swift */; };
+		35C6FDCB2905ADE200895ADA /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6FDCA2905ADE200895ADA /* Dog.swift */; };
+		35C6FDCD2905AEA300895ADA /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6FDCC2905AEA300895ADA /* Cat.swift */; };
+		35C6FDCF2905AF6100895ADA /* Cow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6FDCE2905AF6100895ADA /* Cow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		35C6FDBE2905A9A500895ADA /* 3urok1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3urok1; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C6FDC12905A9A500895ADA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		35C6FDC82905AA0600895ADA /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		35C6FDCA2905ADE200895ADA /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		35C6FDCC2905AEA300895ADA /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		35C6FDCE2905AF6100895ADA /* Cow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				35C6FDC12905A9A500895ADA /* main.swift */,
+				35C6FDC82905AA0600895ADA /* Animals.swift */,
+				35C6FDCE2905AF6100895ADA /* Cow.swift */,
+				35C6FDCA2905ADE200895ADA /* Dog.swift */,
+				35C6FDCC2905AEA300895ADA /* Cat.swift */,
 			);
 			path = 3urok1;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C6FDCD2905AEA300895ADA /* Cat.swift in Sources */,
+				35C6FDCF2905AF6100895ADA /* Cow.swift in Sources */,
 				35C6FDC22905A9A500895ADA /* main.swift in Sources */,
+				35C6FDC92905AA0600895ADA /* Animals.swift in Sources */,
+				35C6FDCB2905ADE200895ADA /* Dog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
